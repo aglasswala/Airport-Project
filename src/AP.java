@@ -9,6 +9,7 @@ public class AP implements Comparable<AP>{
 	public double minDistance = Double.POSITIVE_INFINITY;
 	public AP previous;
 	
+	// Each of the Airports constructor
 	public AP(String name) {
 		this.name = name;
 		neighbors = new ArrayList<Flight>();

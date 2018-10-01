@@ -4,7 +4,7 @@ public class Graph {
 	
 	private ArrayList<AP> vertices;
 	
-	
+	// Creates the graph and addes vertices
 	public Graph(int numberVertices) {
 		vertices = new ArrayList<AP>(numberVertices);
 		vertices.add(new AP("DEN - Denver/Colorado"));

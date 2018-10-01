@@ -70,6 +70,7 @@ public class Airport {
 		
 	}
 	
+	// Dijkstra's algorithm 
 	public void calculate(AP source) {
 		source.minDistance = 0;
 		PriorityQueue<AP> queue = new PriorityQueue<AP>();
